@@ -266,7 +266,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/date-fns@npm:^2.6.0":
+  version: 2.6.0
+  resolution: "@types/date-fns@npm:2.6.0"
+  dependencies:
+    date-fns: "*"
+  checksum: 9b136620fa858d4652ac3fb8bf9918d896e56220bec2c9cb90715dc768f1b3ab13077e4ec2c3ffc85ab8ae0378221a13982bfdc63fe2a685c28f0584bd381ab6
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:*, @types/node@npm:^16.11.6":
   version: 16.11.6
   resolution: "@types/node@npm:16.11.6"
   checksum: 52890a089f89ca9f20d6022c65aa747954040835436f1ceca62bdba1e2e604a86f8a2bbc4a5d54c975834092bb22f8e23832cd6b2d1b0abc0249e9f5035d86b4
@@ -931,6 +940,13 @@ __metadata:
   version: 3.0.1
   resolution: "data-uri-to-buffer@npm:3.0.1"
   checksum: 9f28217ba76eaca400a75f4b1a1d0f55058082c8152a3d88ad5feeec5e54b8c7b6d8a7bb210206bfa552a927c1b942b6102ddbb2feaa557321ea94762c4f14e2
+  languageName: node
+  linkType: hard
+
+"date-fns@npm:*, date-fns@npm:^2.25.0":
+  version: 2.25.0
+  resolution: "date-fns@npm:2.25.0"
+  checksum: 492907de08b948c319ec530a92ff160e11c78b02f15c9fc842776d0173ee411d815b5a5e1e32d1ac496f523f975e080d77b685e456c26d4139377911823d7c0f
   languageName: node
   linkType: hard
 
@@ -2278,7 +2294,10 @@ fsevents@~2.3.1:
   version: 0.0.0-use.local
   resolution: "olaf-resume@workspace:."
   dependencies:
+    "@types/date-fns": ^2.6.0
+    "@types/node": ^16.11.6
     "@types/react": ^17.0.34
+    date-fns: ^2.25.0
     next: ^12.0.3
     react: ^17.0.2
     react-dom: ^17.0.2

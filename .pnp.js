@@ -37,7 +37,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@types/date-fns", "npm:2.6.0"],
+            ["@types/node", "npm:16.11.6"],
             ["@types/react", "npm:17.0.34"],
+            ["date-fns", "npm:2.25.0"],
             ["next", "virtual:14186e928b6500b6b6340f8f4aca2af8d4223b8ba7af5d11f715b2657c905be1dd624df6700f38cb07b430aaea56640f0db154b5c45ff481620d186b9400ca26#npm:12.0.3"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:14186e928b6500b6b6340f8f4aca2af8d4223b8ba7af5d11f715b2657c905be1dd624df6700f38cb07b430aaea56640f0db154b5c45ff481620d186b9400ca26#npm:17.0.2"],
@@ -389,6 +392,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@tootallnate-once-npm-1.1.2-0517220057-d030f3fb14.zip/node_modules/@tootallnate/once/",
           "packageDependencies": [
             ["@tootallnate/once", "npm:1.1.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@types/date-fns", [
+        ["npm:2.6.0", {
+          "packageLocation": "./.yarn/cache/@types-date-fns-npm-2.6.0-516bcda282-9b136620fa.zip/node_modules/@types/date-fns/",
+          "packageDependencies": [
+            ["@types/date-fns", "npm:2.6.0"],
+            ["date-fns", "npm:2.25.0"]
           ],
           "linkType": "HARD",
         }]
@@ -1164,6 +1177,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/data-uri-to-buffer-npm-3.0.1-830646f9ee-9f28217ba7.zip/node_modules/data-uri-to-buffer/",
           "packageDependencies": [
             ["data-uri-to-buffer", "npm:3.0.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["date-fns", [
+        ["npm:2.25.0", {
+          "packageLocation": "./.yarn/cache/date-fns-npm-2.25.0-fe211b387d-492907de08.zip/node_modules/date-fns/",
+          "packageDependencies": [
+            ["date-fns", "npm:2.25.0"]
           ],
           "linkType": "HARD",
         }]
@@ -2676,7 +2698,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["olaf-resume", "workspace:."],
+            ["@types/date-fns", "npm:2.6.0"],
+            ["@types/node", "npm:16.11.6"],
             ["@types/react", "npm:17.0.34"],
+            ["date-fns", "npm:2.25.0"],
             ["next", "virtual:14186e928b6500b6b6340f8f4aca2af8d4223b8ba7af5d11f715b2657c905be1dd624df6700f38cb07b430aaea56640f0db154b5c45ff481620d186b9400ca26#npm:12.0.3"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:14186e928b6500b6b6340f8f4aca2af8d4223b8ba7af5d11f715b2657c905be1dd624df6700f38cb07b430aaea56640f0db154b5c45ff481620d186b9400ca26#npm:17.0.2"],
