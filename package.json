@@ -9,12 +9,19 @@
     "build": "next build"
   },
   "dependencies": {
+    "@babel/preset-react": "^7.16.0",
+    "@emotion/css": "^11.5.0",
+    "@emotion/react": "^11.7.0",
+    "@emotion/styled": "^11.6.0",
     "date-fns": "^2.25.0",
     "next": "^12.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@emotion/babel-plugin": "^11.3.0",
+    "@emotion/babel-preset-css-prop": "^11.2.0",
     "@types/date-fns": "^2.6.0",
     "@types/node": "^16.11.6",
     "@types/react": "^17.0.34",
